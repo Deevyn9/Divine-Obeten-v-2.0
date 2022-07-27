@@ -32,35 +32,35 @@ function About() {
         <h3>my stack</h3>
         <div className="skills">
           <span className="skill">
-            <img src={HTML} alt="" srcset="" />
+            <img src={HTML} alt=""  />
             html
           </span>
           <span className="skill">
-            <img src={CSS} alt="" srcset="" />
+            <img src={CSS} alt=""  />
             css
           </span>
           <span className="skill">
-            <img src={SASS} alt="" srcset="" />
+            <img src={SASS} alt=""  />
             sass
           </span>
           <span className="skill">
-            <img src={RE} alt="" srcset="" />
+            <img src={RE} alt=""  />
             react
           </span>
           <span className="skill">
-            <img src={TW} alt="" srcset="" />
+            <img src={TW} alt=""  />
             tailwind
           </span>
           <span className="skill">
-            <img src={BTS} alt="" srcset="" />
+            <img src={BTS} alt=""  />
             bootstrap
           </span>
           <span className="skill">
-            <img src={JS} alt="" srcset="" />
+            <img src={JS} alt=""  />
             javascript
           </span>
           <span className="skill">
-            <img src={TS} alt="" srcset="" />
+            <img src={TS} alt=""  />
             typescript
           </span>
         </div>

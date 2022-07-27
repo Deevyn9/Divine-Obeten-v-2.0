@@ -21,10 +21,10 @@ body {
 
 nav {
   height: 10vh;
+  width: calc(100vw - 8px);
   padding: 0 8%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  position: relative;
+  transition:  0.2s height ease-in-out;
 }
 
 .grad {
@@ -59,17 +59,19 @@ nav h1:hover {
   margin-right: 10px;
 }
 
+.kami.gray {
+  -webkit-text-fill-color: var(--gray);
+}
+
 .navigator {
-  /* border: 1px solid blue; */
   position: relative;
   cursor: pointer;
-  width: 80px;
-  height: 100%;
   display: flex;
+  height: 40px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transition: all 0.5s ease;
+  transition: all 0.5s ease-in-out;
 }
 
 .navigator__burger {
@@ -103,7 +105,6 @@ nav h1:hover {
 
 /* Animation */
 .navigator.open .navigator__burger {
-  /* transform: translateX(-50px); */
   background: transparent;
 }
 
@@ -115,7 +116,7 @@ nav h1:hover {
   transform: rotate(-45deg);
 }
 
-.nav-container {
+/* .nav-container {
   position: absolute;
   height: 0vh;
   width: calc(100vw - 8px);
@@ -127,18 +128,54 @@ nav h1:hover {
 
 .nav-container.appear {
   height: calc(90vh - 4px);
+}*/
+
+.navbar-top {
+  display: flex;
+  height: calc(10vh - 4px);
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.nav-container ul {
-  list-style: none;
+.navbar.expanded {
+  position: absolute;
+  height: calc(100vh - 4px);
+  background: var(--gradient);
+}
+
+.navbar.expanded .links {
+  position: absolute;
+  top: calc(10vh - 8px);
+  left: 0;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-row: auto auto;
   width: 100%;
-  height: 100%;
+  opacity: 1;
+  height: calc(90vh - 2px);
 }
 
-.nav-container ul li {
+.navbar .links {
+  position: absolute;
+  top: -100vh;
+  left: 0;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-row: auto auto;
+  width: 100%;
+  height: calc(90vh - 2px);
+  opacity: 0;
+  transition: 0.5s opacity ease-in-out;
+}
+
+/* .navbar .links {
+  list-style: none;
+  display: none;
+}  */
+
+.navbar.expanded .links li {
+  list-style: none;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -152,7 +189,7 @@ nav h1:hover {
   transition: all 0.5s ease;
 }
 
-.nav-container ul li:hover {
+.navbar .links li:hover {
   box-shadow: inset 0 0 10px #000000;
 }
 
