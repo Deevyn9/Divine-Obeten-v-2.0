@@ -15,52 +15,52 @@ function About() {
       <div className="about__me">
         <h3>Who am i?</h3>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor natus
-          iusto optio quae adipisci culpa, dolorem dolores. Perferendis dolores,
-          cupiditate nulla nostrum amet odit consequuntur, ab at pariatur sed
-          accusantium.
-        </p>
-        <br />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-          provident quia quod minima esse quas nobis rem molestiae accusamus
-          architecto? Porro itaque, quia quisquam sapiente dolore qui quibusdam
-          ipsam adipisci.
+          Hi, I'm Divine Obeten. I am a{" "}
+          <span className="header__hero-gradient">Frontend Developer</span> from
+          Nigeria. I am passionate about creating great products and giving the
+          users a great experience.
+          <br />
+          {/* <br /> */}I also take pride in contributing to fellow developers,
+          reviewing their codes and solutions on the{" "}
+          <a href="https://www.frontendmentor.io/profile/Deevyn9" target='blank'>
+            Frontend Mentors
+          </a>{" "}
+          platform.
         </p>
       </div>
       <div className="about__stack">
         <h3>my stack</h3>
         <div className="skills">
           <span className="skill">
-            <img src={HTML} alt=""  />
+            <img src={HTML} alt="" />
             html
           </span>
           <span className="skill">
-            <img src={CSS} alt=""  />
+            <img src={CSS} alt="" />
             css
           </span>
           <span className="skill">
-            <img src={SASS} alt=""  />
+            <img src={SASS} alt="" />
             sass
           </span>
           <span className="skill">
-            <img src={RE} alt=""  />
+            <img src={RE} alt="" />
             react
           </span>
           <span className="skill">
-            <img src={TW} alt=""  />
+            <img src={TW} alt="" />
             tailwind
           </span>
           <span className="skill">
-            <img src={BTS} alt=""  />
+            <img src={BTS} alt="" />
             bootstrap
           </span>
           <span className="skill">
-            <img src={JS} alt=""  />
+            <img src={JS} alt="" />
             javascript
           </span>
           <span className="skill">
-            <img src={TS} alt=""  />
+            <img src={TS} alt="" />
             typescript
           </span>
         </div>

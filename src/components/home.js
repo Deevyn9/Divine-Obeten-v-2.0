@@ -1,16 +1,17 @@
 import React from "react";
 import "../App.css";
 import { Link } from "react-router-dom";
+import Mailto from "./mailto";
 
 function Home() {
   return (
     <div className="hero-wrapper">
       <header className="header">
         <div className="header__hero">
-          <span>converting world-class ideas </span>
+          <span>converting incredible ideas </span>
           <br />
           <span>
-            to real life <span className="header__hero-gradient">products</span>.
+            into real <span className="header__hero-gradient">products</span>.
           </span>
           <br />
           <span></span>
@@ -22,12 +23,18 @@ function Home() {
         </Link>
       </header>
       <footer>
-        <a href="http://www.linkedin.com/in/divine-obeten">LINKEDIN</a>
-        <a href="http://www.linkedin.com/in/divine-obeten">GITHUB</a>
-        <a href="http://www.linkedin.com/in/divine-obeten">
-          EMAIL
+        <a href="http://www.linkedin.com/in/divine-obeten" target="blank">
+          LINKEDIN
         </a>
-        <a href="http://www.linkedin.com/in/divine-obeten">BLOG</a>
+        <a href="https://github.com/Deevyn9" target="blank">
+          GITHUB
+        </a>
+        <Mailto email="divineobeten9@gmail.com" subject="" body="">
+          EMAIL
+        </Mailto>
+        <a href="https://hashnode.com/@Deevyn" target="blank">
+          BLOG
+        </a>
       </footer>
     </div>
   );
