@@ -645,6 +645,11 @@ footer a:after {
     font-size: 15px;
   }
 
+  .about__me p {
+  font-size: 15px;
+  line-height: 20px;
+}
+
   .about__stack h3 {
     font-size: 4.2vw;
   }
