@@ -9,9 +9,16 @@ import TS from '../assets/icons8-typescript.svg';
 import RE from '../assets/icons8-react.svg';
 import TW from '../assets/icons8-tailwindcss.svg'
 
+import { motion } from 'framer-motion'
+
 function About() {
   return (
-    <div className="about">
+    <motion.div
+      className="about"
+      initial={{ width: 0 }}
+      animate={{ width: "100%" }}
+      exit={{ x: "100%", transition: { duration: 0.2, delay: 0.2 } }}
+    >
       <div className="about__me">
         <h3>Who am i?</h3>
         <p>
@@ -22,7 +29,10 @@ function About() {
           <br />
           {/* <br /> */}I also take pride in contributing to fellow developers,
           reviewing their codes and solutions on the{" "}
-          <a href="https://www.frontendmentor.io/profile/Deevyn9" target='blank'>
+          <a
+            href="https://www.frontendmentor.io/profile/Deevyn9"
+            target="blank"
+          >
             Frontend Mentors
           </a>{" "}
           platform.
@@ -65,7 +75,7 @@ function About() {
           </span>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

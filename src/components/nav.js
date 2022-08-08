@@ -8,18 +8,31 @@ function Nav() {
 
   const handleToggle = () => {
     setToggle(!toggle);
+    if (!toggle) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "visible";
+    }
+    
   };
 
   return (
     <div className="nav">
       <nav className={toggle ? "navbar expanded" : "navbar"}>
         <div className="navbar-top">
-          <Link to="/" >
+          {toggle ? (
             <h1>
               <span className={toggle ? "kami gray" : "kami"}>神</span>
               <span> OBETEN</span>
             </h1>
-          </Link>
+          ) : (
+            <Link to="/">
+              <h1>
+                <span className={toggle ? "kami gray" : "kami"}>神</span>
+                <span> OBETEN</span>
+              </h1>
+            </Link>
+          )}
 
           <div
             className={toggle ? "navigator open" : "navigator"}

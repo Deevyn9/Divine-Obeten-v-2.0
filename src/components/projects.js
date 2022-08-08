@@ -1,17 +1,19 @@
 import React from 'react';
 import '../App.css';
-// import SOON from '../assets/coming soon.jpg';
 import ProjectData from './projectData';
-// import Data from './projectData';
+import { motion } from 'framer-motion'
 
 function Work() {
 
   const cards = ProjectData.map((item) => {
-    // const stacks = item.techUsed.map((stack) => {
-    //     return <p>{stack}</p>;
-    // })
     return (
-      <div className="projects__container" key={item.id}>
+      <motion.div
+        className="projects__container"
+        key={item.id}
+        initial={{ width: 0 }}
+        animate={{ width: "100%" }}
+       exit={{ x: "100%", transition: { duration: 0.2, delay: 0.2 } }}
+       >
         <div className="img-div">
           <img
             src={require("../assets/" + item.coverImg + ".jpg")}
@@ -32,7 +34,7 @@ function Work() {
             </a>
           </div>
         </div>
-      </div>
+      </motion.div>
     );
   })
 

@@ -2,10 +2,16 @@ import React from "react";
 import "../App.css";
 import { Link } from "react-router-dom";
 import Mailto from "./mailto";
+import { motion } from 'framer-motion'
 
 function Home() {
   return (
-    <div className="hero-wrapper">
+    <motion.div
+      className="hero-wrapper"
+      initial={{ width: 0 }}
+      animate={{ width: "100%" }}
+      exit={{ x: "100%", transition: { duration: 0.2, delay: 0.2 } }}
+    >
       <header className="header">
         <div className="header__hero">
           <span>converting incredible ideas </span>
@@ -36,7 +42,7 @@ function Home() {
           BLOG
         </a>
       </footer>
-    </div>
+    </motion.div>
   );
 }
 

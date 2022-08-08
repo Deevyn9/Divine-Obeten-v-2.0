@@ -24,10 +24,10 @@ nav {
   width: calc(100vw - 8px);
   padding: 0 8%;
   position: relative;
-  transition: 0.2s height ease-in-out;
-  -webkit-transition: 0.2s height ease-in-out;
-  -moz-transition: 0.2s height ease-in-out;
-  -o-transition: 0.2s height ease-in-out;
+  transition: 0.05s height ease-in-out;
+  -webkit-transition: 0.05s height ease-in-out;
+  -moz-transition: 0.05s height ease-in-out;
+  -o-transition: 0.05s height ease-in-out;
 }
 
 .grad {
