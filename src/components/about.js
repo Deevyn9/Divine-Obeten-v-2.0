@@ -16,7 +16,7 @@ function About() {
         <h3>Who am i?</h3>
         <p>
           Hi, I'm Divine Obeten. I am a{" "}
-          <span className="header__hero-gradient">Developer</span> from
+          <span className="header__hero-gradient">Frontend Developer</span> from
           Nigeria. I am passionate about creating great products and giving the
           users a great experience.
           <br />
