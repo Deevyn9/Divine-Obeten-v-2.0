@@ -226,6 +226,7 @@ a:-webkit-any-link {
 }
 
 .header__hero-gradient {
+  display: inline;
   background: var(--gradient);
   background-size: 400% 400%;
   background-clip: text;
