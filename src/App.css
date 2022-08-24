@@ -324,6 +324,9 @@ footer a:after {
   align-items: center;
   padding: 5vh 0 0 0;
   animation: onepx 2s ease infinite alternate forwards;
+  -webkit-animation: onepx 2s ease infinite alternate forwards;
+  -o-animation: onepx 2s ease infinite alternate forwards;
+  -moz-animation: onepx 2s ease infinite alternate forwards;
   z-index: -1;
 }
 
@@ -380,6 +383,7 @@ footer a:after {
   border-top: none;
   border-radius: 50px;
   transition: 0.5s ease;
+  animation: onepx 3s ease infinite alternate forwards;
 }
 /* 
 .projects__container::before {
