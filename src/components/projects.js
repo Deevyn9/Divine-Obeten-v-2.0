@@ -16,7 +16,7 @@ function Work() {
        >
         <div className="img-div">
           <img
-            src={require("../assets/" + item.coverImg + ".jpg")}
+            src={require("../assets/" + item.coverImg + item.imageType)}
             alt="Project icon"
           />
         </div>
