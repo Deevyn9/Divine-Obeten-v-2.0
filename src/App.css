@@ -136,6 +136,7 @@ nav h1:hover {
   position: absolute;
   height: calc(100vh - 4px);
   background: var(--gradient);
+  z-index: 3;
 }
 
 .navbar.expanded .links {
@@ -384,6 +385,7 @@ footer a:after {
   border-radius: 50px;
   transition: 0.5s ease;
   animation: onepx 3s ease infinite alternate forwards;
+  z-index: 1;
 }
 /* 
 .projects__container::before {
