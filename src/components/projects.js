@@ -15,10 +15,7 @@ function Work() {
        exit={{ x: "100%", transition: { duration: 0.2, delay: 0.2 } }}
        >
         <div className="img-div">
-          <img
-            src={require("../assets/" + item.coverImg + item.imageType)}
-            alt="Project icon"
-          />
+          <img src={item.src} alt="Project pic" />
         </div>
         <div className="proj__desc">
           <h2>{item.projectTitle}</h2>

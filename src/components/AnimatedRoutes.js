@@ -4,7 +4,6 @@ import About from './about'
 import Work from './projects';
 import Contact from './contact';
 import {
-  // Switch,
   Route,
   Routes,
   useLocation,
@@ -14,7 +13,6 @@ import {AnimatePresence} from 'framer-motion'
 
 const AnimatedRoutes = () => {
   const location = useLocation();
-
 
   return (
     <AnimatePresence>

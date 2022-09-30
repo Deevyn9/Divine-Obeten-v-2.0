@@ -387,6 +387,10 @@ footer a:after {
   animation: onepx 3s ease infinite alternate forwards;
   z-index: 1;
 }
+
+.projects__container:hover {
+  animation: none;
+}
 /* 
 .projects__container::before {
   content: "";
