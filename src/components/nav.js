@@ -9,9 +9,9 @@ function Nav() {
   const handleToggle = () => {
     setToggle(!toggle);
     if (!toggle) {
-      document.body.style.overflow = "hidden";
+      document.body.style.overflowY = "hidden";
     } else {
-      document.body.style.overflow = "visible";
+      document.body.style.overflowY = "visible";
     }
     
   };
