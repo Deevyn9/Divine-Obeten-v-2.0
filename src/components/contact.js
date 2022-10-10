@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css";
 import Mailto from "./mailto";
-import Resume from '../assets/01 DIVINE OBETEN RESUME --- FRONTEND DEVELOPER.pdf'
+import Resume from '../assets/DIVINE OBETEN - FRONTEND DEVELOPER.pdf'
 
 import { motion } from 'framer-motion'
 
