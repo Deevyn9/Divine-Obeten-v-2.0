@@ -14,13 +14,11 @@ function Home() {
     >
       <header className="header">
         <div className="header__hero">
-          <span>converting incredible ideas </span>
+          <span className="think">Think</span>
           <br />
-          <span>
-            into real <span className="header__hero-gradient">products</span>.
-          </span>
+          <span className="design">Design</span>
           <br />
-          <span></span>
+          <span className="header__hero-gradient build">Build.</span>
         </div>
         <Link to="/projects">
           <div className="proj-link">

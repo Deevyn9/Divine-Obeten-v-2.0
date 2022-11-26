@@ -252,11 +252,24 @@ a:-webkit-any-link {
   } 
 }
 
+.think {
+  font-size: 60px;
+}
+
+.design {
+  font-size: 80px;
+} 
+
+.build {
+  font-size: 100px;
+}
+
 footer a {
   display: inline-block;
   color: var(--gray);
   font-size: 17px;
   margin-right: 30px;
+  font-weight: 700;
 }
 
 footer a:after {
