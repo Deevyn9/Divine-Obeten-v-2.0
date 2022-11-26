@@ -738,6 +738,20 @@ footer a:after {
   }
 }
 
+@media (max-width: 500px) {
+  .think {
+  font-size: 40px;
+}
+
+.design {
+  font-size: 60px;
+} 
+
+.build {
+  font-size: 80px;
+}
+}
+
 @media (max-width: 384px) {
   footer a {
     font-size: 12px;
