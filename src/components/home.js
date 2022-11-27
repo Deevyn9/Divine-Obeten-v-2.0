@@ -14,11 +14,14 @@ function Home() {
     >
       <header className="header">
         <div className="header__hero">
-          <span className="think">Think</span>
-          <br />
-          <span className="design">Design</span>
-          <br />
-          <span className="header__hero-gradient build">Build.</span>
+          <p>Hello,</p>
+          {/* <br /> */}
+          <p className="hero-text">
+            This is the portfolio site of{" "}
+            <span className="header__hero-gradient">Divine Obeten.</span>
+          </p>
+          {/* <br /> */}
+          <p>I'm a Frontend Developer.</p>
         </div>
         <Link to="/projects">
           <div className="proj-link">
@@ -28,16 +31,16 @@ function Home() {
       </header>
       <footer>
         <a href="http://www.linkedin.com/in/divine-obeten" target="blank">
-          LINKEDIN
+          LN
         </a>
         <a href="https://github.com/Deevyn9" target="blank">
-          GITHUB
+          GH
         </a>
         <Mailto email="divineobeten9@gmail.com" subject="" body="">
-          EMAIL
+          MAIL
         </Mailto>
         <a href="https://hashnode.com/@Deevyn" target="blank">
-          BLOG
+          HN
         </a>
       </footer>
     </motion.div>
