@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
 :root {
   --gradient: linear-gradient(90deg, #e66465, #9198e5);
   --gray: #d8d8d8;
@@ -200,6 +202,10 @@ a:-webkit-any-link {
   margin-bottom: 10vh;
 }
 
+.hello {
+  font-family: 'Cedarville Cursive', cursive;
+}
+
 .proj-link {
   display: inline-block;
 }
@@ -251,7 +257,7 @@ a:-webkit-any-link {
 }
 
 .hero-text {
-  margin: 10px 0;
+  margin: -10px 0 10px;
   max-width: 750px;
 }
 

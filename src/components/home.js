@@ -14,7 +14,7 @@ function Home() {
     >
       <header className="header">
         <div className="header__hero">
-          <p>Hello,</p>
+          <p className="hello">hello,</p>
           {/* <br /> */}
           <p className="hero-text">
             This is the portfolio site of{" "}
