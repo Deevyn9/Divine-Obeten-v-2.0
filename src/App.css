@@ -300,7 +300,6 @@ footer a:hover {
   -webkit-animation: gradient 3s ease infinite;
   -o-animation: gradient 3s ease infinite;
   -moz-animation: gradient 3s ease infinite;
-  backdrop-filter: blur(150px);
 }
 
 .about {
