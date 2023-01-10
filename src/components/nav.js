@@ -8,6 +8,8 @@ function Nav() {
 
   const handleToggle = () => {
     setToggle(!toggle);
+
+    // getting rid of the vertical scroll when the navbar is active
     if (!toggle) {
       document.body.style.overflowY = "hidden";
     } else {
