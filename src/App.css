@@ -138,8 +138,20 @@ nav h1:hover {
 .navbar.expanded {
   position: absolute;
   height: 100vh;
-  background: var(--gradient);
+  /* background: #9198e5; */
   z-index: 3;
+  animation: change 3s ease infinite alternate-reverse forwards;
+  -webkit-animation: change 3s ease infinite alternate-reverse forwards;
+  -o-animation: change 3s ease infinite alternate-reverse forwards;
+  -moz-animation: change 3s ease infinite alternate-reverse forwards;
+}
+
+@keyframes change {
+  from {
+      background-color: #e66465;
+  } to {
+    background-color: #9198e5;
+  }
 }
 
 .navbar.expanded .links {
@@ -347,16 +359,16 @@ footer a:hover {
 
 .about__stack {
   width: 30%;
-  background: var(--gradient);
+  background: #9198e5;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 5vh 0 0 0;
-  animation: onepx 2s ease infinite alternate forwards;
-  -webkit-animation: onepx 2s ease infinite alternate forwards;
-  -o-animation: onepx 2s ease infinite alternate forwards;
-  -moz-animation: onepx 2s ease infinite alternate forwards;
+  animation: change 3s ease infinite alternate-reverse forwards;
+  -webkit-animation: change 3s ease infinite alternate-reverse forwards;
+  -o-animation: change 3s ease infinite alternate-reverse forwards;
+  -moz-animation: change 3s ease infinite alternate-reverse forwards;
   z-index: -1;
 }
 
