@@ -1,13 +1,5 @@
 const projectData = [
   {
-    id: 5,
-    src: "https://images.unsplash.com/photo-1646153976497-14925728ff47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8dGVjaCUyMGNvbXBhbnl8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-    projectTitle: "Intellitech",
-    techUsed: "HTML, CSS, JAVASCRIPT",
-    liveLink: "https://divinesassessment.netlify.app/",
-    repoLink: "https://github.com/Deevyn9/Intellitech",
-  },
-  {
     id: 1,
     src: "https://images.unsplash.com/photo-1507627593750-cab2a3684cac?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fGNoYWlyJTIwc2hvcHxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500&q=60",
     projectTitle: "Comfy Drops",
@@ -38,6 +30,14 @@ const projectData = [
     techUsed: "HTML, CSS, JAVASCRIPT",
     liveLink: "https://room-mates.netlify.app/",
     repoLink: "https://github.com/Deevyn9/Roommates",
+  },
+  {
+    id: 5,
+    src: "https://images.unsplash.com/photo-1646153976497-14925728ff47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8dGVjaCUyMGNvbXBhbnl8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    projectTitle: "Intellitech",
+    techUsed: "HTML, CSS, JAVASCRIPT",
+    liveLink: "https://divinesassessment.netlify.app/",
+    repoLink: "https://github.com/Deevyn9/Intellitech",
   },
 ];
 
