@@ -1,10 +1,9 @@
 import React from "react";
 import "../App.css";
 import Mailto from "./mailto";
-import Resume from '../assets/Divine Obeten Frontend Developer.pdf'
+import Resume from "../assets/Divine Obeten, Frontend Software Engineer Resume.pdf";
 
-import { motion } from 'framer-motion'
-
+import { motion } from "framer-motion";
 
 function Contact() {
   return (
@@ -30,7 +29,7 @@ function Contact() {
           Linkedin
         </a>
         <a href={Resume} className="mail" target="blank">
-          Download Resume
+          View Resume
         </a>
       </div>
     </motion.div>
